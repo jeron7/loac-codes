@@ -1,0 +1,12 @@
+`define TEMP_INIT 1'b0
+`define MAX_TEMPERATURE 3'b111
+`define NOT_DRIPPING 1'b0
+`define DECREASE_VALUE 1'b1
+`define INCRESE_VALUE 1'b1
+
+`define DRIPPING 1'b1
+
+`define CYCLES_TO_DRIP 4'b1010
+`define CYCLES_TO_NORMAL 4'b0100
+`define CYCLE_INIT_VALUE 4'd0000
+`define INCREASE_CYCLE 4'b0001
